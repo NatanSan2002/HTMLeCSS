@@ -1,0 +1,136 @@
+<h1>conteudo</h1> - Titulos Principais
+
+<h2>conteudo</h2> - Titulos Secundarios
+
+<h3>conteudo</h3> - Titulos Terciarios 
+
+<p> conteudo </p> - paragrafo 
+
+conteudo <br> - Quebra De Texto
+
+<hr> - Linha
+
+&lt;conteudo&gt; - < esses dois simbolos >
+
+<!-- conteudo --> - Comentario em HTML 
+
+&reg; - simbolo direito autoral ®
+
+&copy; - simbolo direito autoral ©
+
+&trade; - simbolo TradeMark
+&euro; - simbolo moeda europeia
+&pound; - simbolo libras inglaterra 
+&uparrow; - seta para cima
+&downarrow; - seta para baixo
+
+&#x1F596; - Emojis com base na numeração de cada emoji depois do "x"
+
+<img src="conteudo de endereço da imagem" alt="conteudo de texto alternativo para explicar a imagem"> - Colocar Imagens
+
+<link rel="shortcut icon" href="CONTEUDO NOME Do Icon e em formato" type="image/x-icon"> - Colocar Icon (resto da tag ainda não sei)
+
+<address> conteudo </address> - Deixa o texto com forma de endereço
+
+<b> conteudo </b> - Texto Em Negrito 
+
+<strong> conteudo </strong> - Negrito Como Semantica 
+
+<i> conteudo </i> - Texto Em Italicco
+
+<em> conteudo </em> - Texto Em Italico Como Semantica
+
+<mark>conteudo</mark> - deixar texto marcado
+
+<small>conteudo</small> - deixar as letras pequenas 
+
+<del> conteudo </del> - deixar texto como excluido
+
+<ins>conteudo </ins> - deixar texto em sublinhado
+
+<sup>conteudo</sup> - deixar caracteries pequenas em cima (x elevado)
+
+<sub>conteudo</sub> - deixar caracteries pequenas em baixo (H2O)
+
+<code>conteudo</code> - deixar as letras em um estilo como codigo
+
+<pre>conteudo</pre> - considera a formatação com espaços na frente , quebras de linha, tabulaçoes etc
+ 
+<q>conteudo</q> - citação ""
+
+<blockquote cite="http.google.com">conteudo</blockquote> - citaçoes completas e com agloritimo interno de referencia
+
+<abbr title="significado do conteudo"> conteudo </abbr> - caixa de texto quando passar o mouse sobre a palavra 
+
+<bdo dir="rtl"> conteudo</bdo> - inverte o texto (l-left ou r-right no dir="")
+
+<ol type="tipo da lista" start="numero de onde começara "> <li> conteudo da lista </li> </ol> - lista Ordenada (opçoes no type="1/A/a/I/i") (opçoes do start="de 1 a 99"
+
+<ul type="formato do icone"> <li> conteudo da lista </li> </ul> - Lista Não Ordenada (opçoes no type="disc/circle/square"
+
+<dl> <dt> conteudo </dt> <dd> conteudo </dd> </dl> - Lista De Definição
+
+<a href="link do conteudo"> nome, foto, objeto do conteudo</a> - Link externo (abrindo na aba do site) 
+
+**para abrir um link dentro da mesma pasta do arquivo fonte basta colocar o nome do arquivo.html dentro do href, 
+e se estiver dentro de uma outra pasta colocar o nome dela dps um "/" e em seguida o nome do arquivo.html, 
+para voltar para a pasta anterior coloca um "../" e o nome do arquivo.html desejado 
+
+** Se o link for para um site de terceiros hospedado colocar https:// ou http:// (dependendo do site) antes de seu endereço da URL
+
+<a href="link do conteudo" target="_blank" rel="external"> nome,foto,objeto do conteudo</a> - Link Externo (abrindo em uma aba separada)
+
+<a href="link do conteudo" rel="next"> nome,foto,objeto do conteudo - rel="next" para indicar que o link é o proximo da pagina
+
+<a href="link do conteudo" rel="prev"> nome,foto,objeto do conteudo - rel="prev" para indicar que o link é o anterior da pagina
+
+<a href="link do conteudo" rel="prev"> nome,foto,objeto do conteudo - rel="nofollow" para indiciar ao algoritimo que esse link não é muito confiavel
+
+<a href="link do conteudo" download="dnv o mesmo link do conteudo" type="application/zip"> nome,foto,objeto do conteudo - fazer download de tal tipo de arquivo (cada tipo de arquivo precisa de um proprio comando dentro do type="" no caso esse foi de um arquivo.zip) site com tds:https://www.iana.org/assignments/media-types/media-types.xhtml
+
+<a href="#nome_da_id"> nome,foto,objeto, do conteudo </a> - Vai até a parte da pagina onde esta localizado o Elemento do ID referido 
+
+
+<picture> 
+    <source media="(max-width: 1000px)" srcset="local_do_arquivo.tipo" type="image/tipo"> ||| Imagens flexiveis conforme o tamanho visualizado (as imagens menores devem estar em um <source> antes das maiores)
+    <img src="local_do_arquivo.tipo">     ||| Imagem para o Tamanho Padrão 
+</picture> 
+
+
+(geralmente faz sempre para Largura maxima (Width) da img para evitar usar a rolagem horizontal que é mt incomum)
+
+<audio src="nome e local do conteudo do arquivo " controls </audio> - player de audio
+
+<audio src=" nome e local do conteudo do arquivo" autoplay </audio> - toca audio automaticamente (não funciona em muitos bowsers)
+
+<source type="tipo e formato do arquivo"> - Carregar outro arquivo caso o anterior não funcione/mude (deve ser posto sempre em ordem de tentativa)
+
+<video src="local do arquivo do conteudo" width="largura do conteudo" controls> </video> - Video
+
+<video controls> <source src="local do conteudo do arquivo" type="tipo do conteudo/formato do arquivo.mp4"> </video> - Source de videos em diversos formatos (colocar nos sources na ordem em que quer que o navegador tente executar em tal formato primeiro)
+
+(para incorporar videos de servidores externos usar a ferrramenta de compartilhamentos de "Incorporar" o link do video em questao sera convertido em codigo html e podera ser posto em seu site sem gasto do servidor.
+
+<tag id="conteudo"> </tag> - Adiciona um Id identificador a uma tag especifica
+
+<tag onclick="nome da função do JS()"> </tag> - Quando o Mouse clikcar na tag
+
+<tag onmouseenter="nome da função do JS()"> </tag> - Quando o Mouse estiver dentro da tag
+
+<tag onmouseout="nome da função do JS()"> </tag> - Quando o Mouse sair da tag
+
+<input> - Caixa de texto para o usuario digitar
+
+<input type="password"> - Deixa digitos como Senha
+
+<input type="number"> - Só pode digitar numero
+
+<input type="button"> - Botao para ser clicado (para ativar alguma coisa ao clicado colocar os elementos "onclick" dentro da tag com a função desejado ao aperta-lo)
+
+<input value="Conteudo"> - Escrição da caixa (Só funciona no tipo "button"?)
+
+<div> conteudo </div> - Cria uma divisão de conteudo
+
+&nbsp; ||| Espaços infinitos (É NO HTML MSM FEIAO MANÉ KKKKKK)
+
+<textarea> </textarea> ||| Caixa de texto para o Usuario Digitar
