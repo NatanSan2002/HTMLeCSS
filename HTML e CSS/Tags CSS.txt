@@ -294,6 +294,14 @@ exem: italic bold 18px   Arial, Helvetica, sans-serif
 
 
 
+
+IMAGENS
+
+background-image: url("local_do_arquivo.formato"); ||| Imagem para background do conteudo
+
+
+
+
 NÃO ESTUDADO DIREITO:
 
 
