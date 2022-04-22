@@ -299,6 +299,19 @@ IMAGENS
 
 background-image: url("local_do_arquivo.formato"); ||| Imagem para background do conteudo
 
+background-size: 100px 100px ||| Tamanho de Altura e Largura da imagem no background
+
+background-repeat: propriedade; ||| Tipo de repetiçoes
+
+*propriedades: 1:repeat, repete imagem (padrão) 2: no-repeat, não repete imagem  
+3: repeat-y, repete só pra cima 4: repeat-x repete só pro lado *
+
+background-position: propriedades; ||| Posição Base de captura da imagem de background
+
+*propriedades: 1:left top , base lado left em cima (padrao) 2: right bottom, base lado right em baixo
+3: left center, base lado left centro 4: center center, base no centro do centro
+
+
 
 
 
