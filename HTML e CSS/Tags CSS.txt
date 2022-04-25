@@ -30,6 +30,14 @@ font-size: tamanho fonte;}
 @regras são sempre na primeira(as) linha do CSS Interno/Externo
 
 
+** o Body tem uma Margin natural, coloca-la em 0px para tirar a limitação nas extremidades
+
+
+** Para Deixar a altura do Body sempre no tamanho da visualização(quando não tiver conteudos nele o suficiente por exemplo) 
+
+configurar:  body{height:100vh;} 
+
+
 
                                                    IDENTIFICADORES CSS
 
@@ -289,13 +297,19 @@ exem: italic bold 18px   Arial, Helvetica, sans-serif
 
 
 
-** o Body tem uma Margin natural, coloca-la em 0px para tirar a limitação nas extremidades
+
 
 
 
 
 
 IMAGENS
+
+
+Imagens de Background
+
+*Lembrando para definir no body  { height:100vh; }   para Sempre considerar a altura max da visualização *
+
 
 background-image: url("local_do_arquivo.formato"); ||| Imagem para background do conteudo
 
@@ -310,6 +324,20 @@ background-position: propriedades; ||| Posição Base de captura da imagem de ba
 
 *propriedades: 1:left top , base lado left em cima (padrao) 2: right bottom, base lado right em baixo
 3: left center, base lado left centro 4: center center, base no centro do centro
+
+
+background-size: propriedades ; ||| Tamanho da Imagem do fundo
+
+*propriedades: 1: auto, (padrão) 2: valor em % ou px 
+3:contain, mostra toda a imagem adaptando-a para não cortar nem distorcer
+
+4: cover, Deixa no tamanho Maximo possivel porem cortando partes dela (Dependendo da background-position ) (O Melhor)
+
+
+background-attachment: parametros ;  ||| Background-Attachment
+
+parametros: 1: scroll, imagem obdece ao rolamento não acompanhando ele? 
+2:  fixed, deixa imagem fixa em toda sua area mesmo rolando 
 
 
 
