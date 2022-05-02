@@ -137,8 +137,13 @@ background-image: radial-gradient(circle,cor do começo, cor do final); ||| Degr
 POSICIONAMENTO 
 
 
-margin:auto;    ||| Centraliza Conteudo Independente do tamanho da tela
+margin:auto;    ||| Centraliza Conteudo Horizontalmente Independente do tamanho da tela (elemento tem que ser display:block)
 
+
+position:absolute;  left:50%; top:50%;  transform: translate(-50%, -50%)  ||| Centraliza Conteudo Verticalmente independente do tamanho da tela
+
+* Elemento Pai tem que ser position:relative;  *
+ 
 
 text-align:posição; ||| Alinha o Texto
 
