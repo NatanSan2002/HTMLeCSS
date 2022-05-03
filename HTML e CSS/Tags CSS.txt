@@ -49,6 +49,9 @@ tag#nome do id{} |||  Pega a Id de um Elemento para altelaro individualmete no s
 <tag class="nome_classe1 nome_classe2"> conteudo </tag>  ||| Só precisa dar "espaço" dos nomes para por Duas ou mais classes em um mesmo elemento.
 
 
+tag1, tag2, tag3 {} ||| Configurar as mesmas configuraçoes para diferentes Tags
+
+
 tag:pseudoClasse{} ||| Pseudos Classes são classes que só são ativas suas configuraçoes quando algum estado é ativado
 
 **exemplos tag:hover{} ||| Pseudo Classe "Hover", Suas configuraçoes só são ativadas quando o mouse esta sobre o elemento dela
