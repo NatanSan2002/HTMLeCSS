@@ -1,23 +1,35 @@
-body{margin:0px;}
+@charset "UTF-8";
 
-h1, p {margin:0px}
+
+
+* {margin:0px; padding:0px;}
+
+html, body {min-height:100vh; background:darkgray;}
 
 header{background:black;color:white;font-size:20px;font-family: Arial, Helvetica, sans-serif; padding:60px 10px;
-margin-bottom:150px;
 } 
 
-header h1 {font-size:2.8em; font-style:italic; font-weight: bold; margin:auto;}
+header h1 {
+    font-size:2.8em; font-style:italic; font-weight: bold; margin:auto;
+    text-align: center; font-variant: small-caps; 
+}
 
-header > h1 {text-align: center;}
+
 
 header p {text-align: center;}
 
 
 section{
-margin:130px 0px;
+padding:10vh 0vh;
 }
 
-section > p {font-family: Arial, Helvetica, sans-serif; font-size: 100%; font-weight: bold; }
+section  p {font-family: Arial, Helvetica, sans-serif; font-size: 100%; font-weight: bold; }
+
+section.normal{background:white; color:black;}
+
+section.imagem{background:rgb(66, 66, 66); color:white;}
+.cordel{width: 270px;}
+
 
 
 footer {background:black; color:white; font-size:20px; text-align: center; padding:25px; margin-top:50px; font-weight:bold; font-family: Arial, Helvetica, sans-serif ; }

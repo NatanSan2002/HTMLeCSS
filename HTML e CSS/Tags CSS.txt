@@ -35,21 +35,23 @@ font-size: tamanho fonte;}
 
 ** Para Deixar a altura do Body sempre no tamanho da visualização(quando não tiver conteudos nele o suficiente por exemplo) 
 
-configurar:  body{height:100vh;} 
+configurar:  body{min-height:100vh;}  ||| Assim, faz com que o tamanho Minimo pro Body seja 100vh (viewport height) da visualização do site
 
 
 
                                                    IDENTIFICADORES CSS
 
 
-tag#nome do id{} |||  Pega a Id de um Elemento para altelaro individualmete no style Interno ou Externo do CSS
+tag#nome do id{}     |||  Pega a Id de um Elemento para altelaro individualmete no style Interno ou Externo do CSS
 
-.nome_da_classe{} ||| Altera CSS de toda uma classe
+.nome_da_classe{}   ||| Altera CSS de toda uma classe
+
+tag.nome_da_classe{}   ||| Altera CSS apenas da tag que esta com tal Classe
 
 <tag class="nome_classe1 nome_classe2"> conteudo </tag>  ||| Só precisa dar "espaço" dos nomes para por Duas ou mais classes em um mesmo elemento.
 
 
-tag1, tag2, tag3 {} ||| Configurar as mesmas configuraçoes para diferentes Tags
+tag1, tag2, tag3 {} ||| Mesmas configuraçoes de CSS para diferentes Tags, .Classes , #IDs 
 
 
 tag:pseudoClasse{} ||| Pseudos Classes são classes que só são ativas suas configuraçoes quando algum estado é ativado
