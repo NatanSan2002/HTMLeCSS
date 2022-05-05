@@ -262,6 +262,8 @@ absoluta: 1px (que é baseado no proprio tamanho da letra)
 relativa: 1em (baseado no tamanho padrão da letra que de é 16px, ou outro tamanho definido para ela, assim multiplicando para cada numero no em, 
 2em seria 32px por exemplo no tamanho base da fonte 16px)
 
+Adaptavel a tela: 5vw (baseado no tamanho total da View Widht - visualização total da largura, assim se ajusta de acordo com a largura da visualização)
+
 
 
 font-weight:peso da fonte; ||| peso(negritura) das letras
