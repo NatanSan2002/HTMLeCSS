@@ -349,7 +349,7 @@ background-size: propriedades ; ||| Tamanho da Imagem do fundo
 background-attachment: parametros ;  ||| Background-Attachment
 
 parametros: 1: scroll, imagem obdece ao rolamento não acompanhando ele? 
-2:  fixed, deixa imagem fixa em toda sua area mesmo rolando 
+2:  fixed, deixa imagem fixa em toda sua area mesmo rolando  (serve pro efeito parallax)
 
 
 
