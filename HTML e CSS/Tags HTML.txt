@@ -134,3 +134,14 @@ para voltar para a pasta anterior coloca um "../" e o nome do arquivo.html desej
 &nbsp; ||| Espaços infinitos (É NO HTML MSM FEIAO MANÉ KKKKKK)
 
 <textarea> </textarea> ||| Caixa de texto para o Usuario Digitar
+
+
+
+<table>     ||| Tag Table, Table é o pai das tags tr, e td sendo assim  o corpo da Tabela de fato. 
+<tr>           ||| Tag Tr, Linha Horizontal da tabela, é pai da tag Td
+<td>          ||| Tag Td, Linha de Conteudo dentro da tabela
+</td>
+</tr>
+</table>
+
+

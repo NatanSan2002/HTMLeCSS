@@ -212,6 +212,10 @@ position:sticky; ps ||| Sticky, Assim que o conteudo ficar de "fora" da tela, de
 
 
 
+flex-wrap:wrap; ||| Flex-Wrap, Elementos Filhos de um Elemento Pai são obrigados a irem para baixo quando ultrapassam a largura do seu elemento Pai
+
+
+
  
 
 
