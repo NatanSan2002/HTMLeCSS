@@ -75,6 +75,8 @@ tag::pseudoElement{content:"Conteudo";} ||| Pseudo-Elementos, Modificam apenas c
 
 **exemplo: tag::after{content:"Conteudo";} ||| PsElement After, Só Após todo conteudo dos Elementos da tag, Aplica o Content:""; e suas Configuraçoes
 
+** exemplo2: input::placeholder{configuraçoes CSS} ||| Mexendo no peseudo-elemento Placeholder do input
+
 
 **Todos os exemplo acima com "tag" podem ser feitos normalmente como #id ou .class (só substituindo a sintaxe de declaração obviamente)
 
