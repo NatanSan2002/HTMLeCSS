@@ -152,9 +152,15 @@ position:absolute;  left:50%; top:50%;  transform: translate(-50%, -50%)  ||| Ce
 * Elemento Pai tem que ser position:relative;  *
  
 
-text-align:posição; ||| Alinha o Texto
+text-align:posição; ||| Alinha o Texto Horizontalmente
 
 **parametros de posição: left, right, center, justify
+
+vertical-align: posição; ||| Alinha o Texto Verticalmente
+
+**parametros: top, middle, bottom
+
+
 
 text-indent: 15px; ||| Tamanho de Espaçamento no inicio do texto (como aqueles em parágrafos)
 
