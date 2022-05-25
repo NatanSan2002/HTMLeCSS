@@ -3,9 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <style>
+body{margin:0px; font-family:Arial, Helvetica, sans-serif;}
 h2{text-align: center; margin: 50px 0px;}
-table{border:solid 2px black; border-collapse:collapse; margin-top: 70px;}
-td{border:solid 1px black; margin:0px; padding:8px; }
+table{border:solid 2px black; border-collapse:collapse; margin:70px 5px; width:500px;}
+td,th{border:solid 1px black; margin:0px; padding:8px; }
+thead,tfoot{background:gray; color:white;}
+.num{text-align: right;}
 </style>
 </head>
 <body>
@@ -20,20 +23,29 @@ td{border:solid 1px black; margin:0px; padding:8px; }
         Estado
         </th>
         <th>
-        Popolação
+        População
         </th>
     </tr>
         </thead>
-<tr>
-<td>teste1</td>
-<td>teste1</td>
-<td>teste1</td>
+<tbody>
+<tr class="num">
+<td>São Paulo</td>
+<td>45919049</td>
 </tr>
-<tr>
-<td>teste1</td>
-<td>teste1</td>
-<td>teste1</td> 
+<tr class="num"> 
+<td>Minas Gerais</td>
+<td>21168508</td>
 </tr>
+<tr class="num">
+<td>Rio de Janeiro</td> <td>17267791</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th>Total de Habitantes</th>
+<td>0000</td>
+</tr>
+</tfoot>
 </table>
 
 </body>

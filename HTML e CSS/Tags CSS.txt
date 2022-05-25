@@ -365,6 +365,10 @@ parametros: 1: scroll, imagem obdece ao rolamento não acompanhando ele?
 
 
 
+Table configs CSS
+
+table{ border-collapse: collapse} ||| border-collapse, faz tabela integrar as suas linhas 
+
 
 
 NÃO ESTUDADO DIREITO:

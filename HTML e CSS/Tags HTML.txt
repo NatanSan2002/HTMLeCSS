@@ -137,11 +137,19 @@ para voltar para a pasta anterior coloca um "../" e o nome do arquivo.html desej
 
 
 
-<table>     ||| Tag Table, Table é o pai das tags tr, e td sendo assim  o corpo da Tabela de fato. 
-<tr>           ||| Tag Tr, Linha Horizontal da tabela, é pai da tag Td
-<td>          ||| Tag Td, Linha de Conteudo dentro da tabela
-</td>
-</tr>
+<table>              ||| Tag Table, Table é o pai de todas as tags to tipo table, sendo assim  o corpo da Tabela de fato. 
+<thead>             ||| Tag THead, Cabeçalho da tabela, dentro dela fica Tr depois Td ou Th 
+<tr> </tr>           ||| Tag Tr, Linha Horizontal da tabela, é pai das tags Td e Th
+</thead>
+<tbody>            ||| Tag TBody, é a parte do corpo de dados do conteudo em sí da tabela
+<tr>          
+<td></td>         ||| Tag Td, Dado/conteudo, fica dentro da tag Tr
+<th> </th>        ||| Tag Th,Dado tipo Titulo, fica dentro da Tag Tr
+</tr> 
+</tbody>
+<tfoot>             ||| Tag Tfooot, Rodapé da tabela
+<tr> <td></td> </tr>
+</tfoot>
 </table>
 
 
