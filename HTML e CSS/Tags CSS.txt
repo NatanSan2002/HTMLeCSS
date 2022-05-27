@@ -374,23 +374,25 @@ table{ border-collapse: collapse} ||| border-collapse, faz tabela integrar as su
 NÃO ESTUDADO DIREITO:
 
 
-
 z-index: -1 ; ||| deixa elemento com prioridade para Sobrepor outro elemento no msm lugar (o elemento tem que ter um position declarada absolute ou relative)
 
-display: flex ; justify-content: center ; ||| deixa elemento dentro da div no centro
+
+display:flex;  ||| Deixa itens um do lado do outro dentro de um elemento. (qual a diferença dele pro display:inline; ent??)
+
+align-items:parametro; ||| Alinha(Verticalmente) Todos os itens dentros de um elemento  
+
+justify-content: space-between ; ||| (Horizontalmente) Between, Deixa um espaço  do mesmo tamanho entre os itens dentro de um elemento 
+
 
 display: flex; justify-content: center;align-items: center; ||| Deixar Elemento dentro da div No MEIO
 
-(quando colocar a largura e altura de um elemento em px é o valor real dele e que não vão variar com o tamanho da tela,
-ja em % é o valor total da tela ou seja não varia com o tamanho dela.
-assim é interresante colocar em "%" elementos que vc quer que se adpte ao tamanho da tela e "px" qndo vc quer manter a INTEGRIDADE
-da imagem para não distorcela caso a tela for maior ou menor)
+
 
 @media only screen and (max-width: 1300px) {conteudo a ser alterado no css} ||| Se o tamanho da Largura (Width) for menor que 1300px altera os elementos css
 
-(esse $ sim colocar por ultimo)
+(esse sim colocar por ultimo)
 
-background-image: url("endereço da imagem.tipo"); ||| Imagem Como Fundo(tmb vale para elementos como div)
+
 
 -webkit-text-stroke-width: 2px; ||| Contorno De Textos
 
