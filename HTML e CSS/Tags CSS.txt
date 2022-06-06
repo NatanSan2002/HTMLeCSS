@@ -175,6 +175,59 @@ display:none; ||| Deixa o Elemento SEM Nenhuma Visualização
 
 
 
+
+Flex-Box
+
+display:flex;  ||| Deixa elementos Filhos(dentro) de um elemento Pai como display:Inline ou vice-versa.
+
+*elementos que não tem uma Width definida com o pai display:flex ficam com a menor largura possivel*
+
+
+** propriedades a seguir só funcionam se o Elemento tambem tiver display:flex;
+
+Configuraçoes No elemento Pai tambem 
+
+justify-content:parametros; ||| Justifica (Horizontalmente) os elementos Filhos desse elemento Pai  
+
+parametro:  space-between | Deixa um espaço de distancia do mesmo tamanho entre os itens
+
+parametro: center | Deixa todos os itens no centro (horizontal)
+
+
+align-items:parametros; ||| Alinha (Verticalmente) os elemento Filhos desse elemento Pai
+
+parametro: center | Deixa todos os itens no centro (vertical)  
+
+
+Configuraçoes nos próprios elementos Filhos
+
+flex-basis: 30px; ||| tamanho da Width base 
+
+flex-grow:2;  ||| Tamanho largura por Proporção de itens
+
+* para fazer sentido deve ser aplicada em mais de um item pelo ID deles, com os outros com numero menor, exmp: 1, dai o que é 2 tera o dobro de largura doq os que tem 1
+
+flex-shrink:2; ||| ao contraio do Grow, diminui esse em Proporcionalmente a outros
+
+flex: 1 2 50px ;|||  shorthand dos 3 de cima (1: grow, 2: shrink, 50: basis)
+
+order:1; ||| Define a Ordem que o elemento sera posto com base no numero em relação a outros elementos com um order tmb *nesse caso é o primerio 1*
+
+ **
+
+
+flex-wrap:wrap; ||| Flex-Wrap, Elementos Filhos de um Elemento Pai são obrigados a irem para baixo quando ultrapassam a largura do seu elemento Pai
+
+*nos filhos de um elemento tipo display:flex, o flex sempre adapta o posicionamento para que caibam todos os itens dentro do seu Pai podendo distorcer,
+
+com o Wrap forçamos a pula de linha em troca da integridade dos tamanhos dos itens* 
+
+
+
+
+  
+
+
 Padding ||| Espaçamento INTERNO do conteudo (o distanciando de sua própria borda por dentro)
 
 Margin  ||| Espaçamento EXTERNO do conteudo (espaçando para fora depois de sua borda)
@@ -220,11 +273,6 @@ position:sticky; ps ||| Sticky, Assim que o conteudo ficar de "fora" da tela, de
 
 
 
-flex-wrap:wrap; ||| Flex-Wrap, Elementos Filhos de um Elemento Pai são obrigados a irem para baixo quando ultrapassam a largura do seu elemento Pai
-
-
-
- 
 
 
 
@@ -377,11 +425,9 @@ NÃO ESTUDADO DIREITO:
 z-index: -1 ; ||| deixa elemento com prioridade para Sobrepor outro elemento no msm lugar (o elemento tem que ter um position declarada absolute ou relative)
 
 
-display:flex;  ||| Deixa itens um do lado do outro dentro de um elemento. (qual a diferença dele pro display:inline; ent??)
+
 
 align-items:parametro; ||| Alinha(Verticalmente) Todos os itens dentros de um elemento  
-
-justify-content: space-between ; ||| (Horizontalmente) Between, Deixa um espaço  do mesmo tamanho entre os itens dentro de um elemento 
 
 
 display: flex; justify-content: center;align-items: center; ||| Deixar Elemento dentro da div No MEIO
