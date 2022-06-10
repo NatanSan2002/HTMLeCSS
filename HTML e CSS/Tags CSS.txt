@@ -419,24 +419,19 @@ table{ border-collapse: collapse} ||| border-collapse, faz tabela integrar as su
 
 
 
+
+
+
+@media (max-width: 1300px) {conteudo a ser alterado no css} ||| Se o tamanho da Largura (Width) for menor que 1300px altera as configuraçoes de CSS dos elementos
+
+*(esse sim colocar por ultimo, dps de todo codigo css)
+
+
+
 NÃO ESTUDADO DIREITO:
 
 
 z-index: -1 ; ||| deixa elemento com prioridade para Sobrepor outro elemento no msm lugar (o elemento tem que ter um position declarada absolute ou relative)
-
-
-
-
-align-items:parametro; ||| Alinha(Verticalmente) Todos os itens dentros de um elemento  
-
-
-display: flex; justify-content: center;align-items: center; ||| Deixar Elemento dentro da div No MEIO
-
-
-
-@media only screen and (max-width: 1300px) {conteudo a ser alterado no css} ||| Se o tamanho da Largura (Width) for menor que 1300px altera os elementos css
-
-(esse sim colocar por ultimo)
 
 
 
