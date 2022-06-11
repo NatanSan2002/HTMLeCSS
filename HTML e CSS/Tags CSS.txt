@@ -317,10 +317,19 @@ exemplos: sans-serif, serif, monospace, etc...
 font-size: medida da fonte; ||| tamanho da letra
 
 **Medidas recomendadas: 
-absoluta: 1px (que é baseado no proprio tamanho da letra)
+absoluta: 1px ||| que é baseado no proprio tamanho da letra
 
-relativa: 1em (baseado no tamanho padrão da letra que de é 16px, ou outro tamanho definido para ela, assim multiplicando para cada numero no em, 
-2em seria 32px por exemplo no tamanho base da fonte 16px)
+
+relativa: 1em ||| baseado no tamanho da fonte do elemento PAI e multiplicando para cada numero no em
+*2em ficaria 40px por exemplo se o tamanho da fonte PAI fosse 20px, pois multiplocou 2x)
+
+relativa: 1rem ||| baseado no tamanho da fonte Root do site (tag HTML) e multiplicando para cada numero no rem
+*2rem ficaria 32px por exemplo se o tamanho da fonte na tag HTML fosse 16px, pois multiplicou 2x
+
+
+relativa: 100% ||| porcentagem baseada no tamanho padrão da fonte do navegador, ou seja, se for maior que 100% séra maior do que o padrão e vice e versa
+
+*é interessante definir um valor em % no html e para cada elemento ir trocando com o REM, assim para cada media query basta mudar a % do html e automaticamente tudo mudaria tmb
 
 Adaptavel a tela: 5vw (baseado no tamanho total da View Widht - visualização total da largura, assim se ajusta de acordo com a largura da visualização)
 
