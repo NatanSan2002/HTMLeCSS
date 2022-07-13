@@ -38,6 +38,9 @@ font-size: tamanho fonte;}
 configurar:  body{min-height:100vh;}  ||| Assim, faz com que o tamanho Minimo pro Body seja 100vh (viewport height) da visualização do site
 
 
+-webkit-tap-highlight-color: transparent;  ||| Faz que a caixa azul que aparece ao clicar em elementos pelo touch não apareça (por na configuração global: *{})
+
+
 
                                                    IDENTIFICADORES CSS
 
