@@ -450,7 +450,7 @@ table{ border-collapse: collapse} ||| border-collapse, faz tabela integrar as su
 NÃO ESTUDADO DIREITO:
 
 
-z-index: -1 ; ||| deixa elemento com prioridade para Sobrepor outro elemento no msm lugar (o elemento tem que ter um position declarada absolute ou relative)
+z-index: 1 ; ||| deixa o elemento com prioridade (por ordem crescente) para Sobrepor outro elemento no msm lugar (o elemento tem que ter uma position declarada)
 
 
 
