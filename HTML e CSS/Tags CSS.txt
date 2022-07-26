@@ -19,7 +19,7 @@ font-size: tamanho fonte;}
 </head>
                                           (CSS 	Externo)
 
-<head> <link rel="stylesheet" href="=nome do arquivo.css"> </head>
+<head> <link rel="stylesheet" href="nome do arquivo.css"> </head>
 
 (dentro da Pagina do arquivo.css)
 
