@@ -159,3 +159,32 @@ para voltar para a pasta anterior coloca um "../" e o nome do arquivo.html desej
 </table>
 
 
+
+
+Melhor Mecanismo de busca para o SEO
+
+
+<head> <meta name="description" content="Descrição geral sobre o site"> </head>
+
+
+Arquivo Robots 
+
+*Criar arquivo na pasta raiz do projeto com o nome: robots.txt e dentro dele colocar:
+
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: url_desse_site
+
+
+SiteMap XML
+
+Ir no site: https://www.xml-sitemaps.com/ 
+
+passar o link do site, baixar o arquivo que for gerado, e coloca-lo na pasta raiz do projeto
+
+
+
