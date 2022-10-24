@@ -177,7 +177,7 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: url_desse_site
+Sitemap: url_desse_site/sitemap.xml
 
 
 SiteMap XML
