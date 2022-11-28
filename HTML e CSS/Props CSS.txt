@@ -191,7 +191,13 @@ Flex-Box
 
 display:flex;  ||| Deixa elementos Filhos(dentro) de um elemento Pai como display:Inline ou vice-versa.
 
-*elementos que não tem uma Width definida com o pai display:flex ficam com a menor largura possivel*
+*elementos que não tem uma Width definida com o pai display:flex ficam com a menor largura possivel
+
+para não ficar diminuindo colocar flex:none no elemento que não quer que fique se diminuindo
+
+*
+
+
 
 
 ** propriedades a seguir só funcionam se o Elemento tambem tiver display:flex;
@@ -232,6 +238,8 @@ flex-wrap:wrap; ||| Flex-Wrap, Elementos Filhos de um Elemento Pai são obrigado
 *nos filhos de um elemento tipo display:flex, o flex sempre adapta o posicionamento para que caibam todos os itens dentro do seu Pai podendo distorcer,
 
 com o Wrap forçamos a pula de linha em troca da integridade dos tamanhos dos itens* 
+
+
 
 
 
