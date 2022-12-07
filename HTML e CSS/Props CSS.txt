@@ -290,6 +290,8 @@ position:fixed; ps ||| Fixed, Deixa o conteudo Fixo na tela não importa o local
 
 position:sticky; ps ||| Sticky, Assim que o conteudo ficar de "fora" da tela, deixa-o fixo com sua posição baseada nos parametros com base no tamanho total da tela.
 
+* o elemento tem que ter uma position declarada, exemplo top: 0; 
+
 
 
 
