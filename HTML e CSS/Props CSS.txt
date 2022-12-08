@@ -58,6 +58,8 @@ tag#nome do id{}     |||  Pega a Id de um Elemento para altelaro individualmete 
 
 tag.nome_da_classe{}   ||| Altera CSS apenas da tag que esta com tal Classe
 
+tag > * {} ||| Altera tudo que (nesse caso) for filho dessa tag
+
 <tag class="nome_classe1 nome_classe2"> conteudo </tag>  ||| Só precisa dar "espaço" dos nomes para por Duas ou mais classes em um mesmo elemento.
 
 
@@ -89,6 +91,8 @@ tag::pseudoElement{content:"Conteudo";} ||| Pseudo-Elementos, Modificam apenas c
 
 
 **Todos os exemplo acima com "tag" podem ser feitos normalmente como #id ou .class (só substituindo a sintaxe de declaração obviamente)
+
+
 
 
 
