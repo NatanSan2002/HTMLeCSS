@@ -90,6 +90,9 @@ tag::pseudoElement{content:"Conteudo";} ||| Pseudo-Elementos, Modificam apenas c
 ** exemplo2: input::placeholder{configuraçoes CSS} ||| Mexendo no peseudo-elemento Placeholder do input
 
 
+tag >:not(:first-child):not(:last-child) {confis CSS} ||| Estiliza Confis apenas do filho do meio do elemento 
+    
+
 **Todos os exemplo acima com "tag" podem ser feitos normalmente como #id ou .class (só substituindo a sintaxe de declaração obviamente)
 
 
