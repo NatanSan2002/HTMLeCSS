@@ -464,6 +464,11 @@ table{ border-collapse: collapse} ||| border-collapse, faz tabela integrar as su
 *(esse sim colocar por ultimo, dps de todo codigo css)
 
 
+ANIMATIONS CSS
+
+animation: nome_animacao 0.5s forwards; ||| Forwards trava a animação no ultimo estado quando terminou 
+
+
 
 NÃO ESTUDADO DIREITO:
 
