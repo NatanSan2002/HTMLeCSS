@@ -470,12 +470,13 @@ animation: nome_animacao 0.5s forwards; ||| Forwards trava a animação no ultim
 
 
 
-NÃO ESTUDADO DIREITO:
 
+Others:
 
 z-index: 1 ; ||| deixa o elemento com prioridade (por ordem crescente) para Sobrepor outro elemento no msm lugar (o elemento tem que ter uma position declarada)
 
 
+Webkits
 
 -webkit-text-stroke-width: 2px; ||| Contorno De Textos
 
@@ -488,7 +489,11 @@ z-index: 1 ; ||| deixa o elemento com prioridade (por ordem crescente) para Sobr
 overflow: hidden; text-overflow: ellipsis; ||| Se o conteudo passar da area da Div que ele esta dentro ele interrompe com um "..." 
 
 
+NÃO ESTUDADO DIREITO:
 
+aspect-ratio: 16 / 9 ; ||| Tamanho do elemento  Flexivel com base nessa divisão (proporção) 
+
+*pode ser dado os valores de largura e altura que voce quer, exemplo: 500 /300 e ele ira se adaptar a essa proporção
 
 
 
