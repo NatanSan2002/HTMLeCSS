@@ -280,6 +280,9 @@ max-width: 1000px; ||| Valor MAXIMO de largura que esse conteudo pode chegar em 
 
 min-width: 320px; ||| Valor Minimo de largura que esse conteudo pode ficar em px
 
+*se o conteudo for uma imagem precisa difinir sua "width" como 100% primeiro e depois o valor do max-width,
+          se não o conteudo não diminuira se necessário
+
 
 
 
