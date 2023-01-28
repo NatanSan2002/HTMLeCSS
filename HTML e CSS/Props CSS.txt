@@ -417,6 +417,12 @@ exem: italic bold 18px   Arial, Helvetica, sans-serif
 
 IMAGENS
 
+Imagens Normais
+
+object-fit: cover; ||| Se for colocar uma imagem baseada em height (100% exemplo) adapta-a para não distorce-la
+
+* ai se quiser ajustar a parte de visualização dela então, aumente sua widht (dando zoom) e ajuste sua posição vertical (com position ou transform )  
+
 
 Imagens de Background
 
@@ -450,6 +456,8 @@ background-attachment: parametros ;  ||| Background-Attachment
 
 parametros: 1: scroll, imagem obdece ao rolamento não acompanhando ele? 
 2:  fixed, deixa imagem fixa em toda sua area mesmo rolando  (serve pro efeito parallax)
+
+
 
 
 
