@@ -200,6 +200,8 @@ display:flex;  ||| Deixa elementos Filhos(dentro) de um elemento Pai como displa
 
 *elementos que não tem uma Width definida com o pai display:flex ficam com a menor largura possivel
 
+* elementos com max-width só funcionam normalmente se sua "width" (normal) for definida como: 100%;
+
 para não ficar diminuindo colocar flex:none no elemento que não quer que fique se diminuindo
 
 *
@@ -280,7 +282,7 @@ max-width: 1000px; ||| Valor MAXIMO de largura que esse conteudo pode chegar em 
 
 min-width: 320px; ||| Valor Minimo de largura que esse conteudo pode ficar em px
 
-*se o conteudo for uma imagem precisa difinir sua "width" como 100% primeiro e depois o valor do max-width,
+*se o conteudo for uma imagem ou um filho de um display:flex,  precisa difinir sua "width" como 100% primeiro e depois o valor do max-width,
           se não o conteudo não diminuira se necessário
 
 
